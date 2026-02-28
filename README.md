@@ -14,7 +14,7 @@ A 2D platformer game built in **GameMaker**, set in a mysterious cave. You play 
 
 ---
 
-## 📖 Story
+## Story
 
 Two races have long been at war. You are a newcomer who ventures into the cave of the so-called "offending" race. What you find inside changes everything — they aren't the monsters the world made them out to be.
 
