@@ -43,6 +43,7 @@
     {"id":{"name":"Stone","path":"objects/Stone/Stone.yy",},},
     {"id":{"name":"Cave","path":"rooms/Cave/Cave.yy",},},
     {"id":{"name":"Cave2","path":"rooms/Cave2/Cave2.yy",},},
+    {"id":{"name":"Dialogue","path":"rooms/Dialogue/Dialogue.yy",},},
     {"id":{"name":"GameOver","path":"rooms/GameOver/GameOver.yy",},},
     {"id":{"name":"TestingRoom","path":"rooms/TestingRoom/TestingRoom.yy",},},
     {"id":{"name":"Title","path":"rooms/Title/Title.yy",},},
@@ -73,6 +74,7 @@
     {"roomId":{"name":"GameOver","path":"rooms/GameOver/GameOver.yy",},},
     {"roomId":{"name":"Win","path":"rooms/Win/Win.yy",},},
     {"roomId":{"name":"Cave2","path":"rooms/Cave2/Cave2.yy",},},
+    {"roomId":{"name":"Dialogue","path":"rooms/Dialogue/Dialogue.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
