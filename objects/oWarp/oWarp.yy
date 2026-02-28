@@ -35,7 +35,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":true,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_RoomChangeTrigger",
+    "path":"sprites/spr_RoomChangeTrigger/spr_RoomChangeTrigger.yy",
+  },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
