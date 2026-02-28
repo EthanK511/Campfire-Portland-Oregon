@@ -26,8 +26,8 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"xPos","filters":[],"listItems":[],"multiselect":false,"name":"xPos","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
-    {"$GMObjectProperty":"v2","%Name":"yPos","filters":[],"listItems":[],"multiselect":false,"name":"yPos","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"xPos","filters":[],"listItems":[],"multiselect":false,"name":"xPos","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"32","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"yPos","filters":[],"listItems":[],"multiselect":false,"name":"yPos","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"412","varType":1,},
     {"$GMObjectProperty":"v2","%Name":"RoomName","filters":[
         "GMRoom",
       ],"listItems":[],"multiselect":false,"name":"RoomName","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"Cave2","path":"rooms/Cave2/Cave2.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Cave2","varType":5,},

@@ -31,9 +31,9 @@
   "name":"CampfirePortlandOregon",
   "resources":[
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
+    {"id":{"name":"JetBrainsMono","path":"fonts/JetBrainsMono/JetBrainsMono.yy",},},
     {"id":{"name":"bossesfireball","path":"objects/bossesfireball/bossesfireball.yy",},},
     {"id":{"name":"MANSTHEBOSS","path":"objects/MANSTHEBOSS/MANSTHEBOSS.yy",},},
-    {"id":{"name":"JetBrainsMono","path":"fonts/JetBrainsMono/JetBrainsMono.yy",},},
     {"id":{"name":"Object6","path":"objects/Object6/Object6.yy",},},
     {"id":{"name":"oDbox","path":"objects/oDbox/oDbox.yy",},},
     {"id":{"name":"oNPC","path":"objects/oNPC/oNPC.yy",},},
