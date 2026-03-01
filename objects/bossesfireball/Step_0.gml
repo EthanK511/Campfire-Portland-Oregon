@@ -7,3 +7,7 @@ if (dist <= check_dist) {
 	Player.hurt(1);
 	instance_destroy();
 }
+
+if (!instance_exists(oNPChostile)) {
+	instance_destroy();
+}
