@@ -26,7 +26,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.3.217",
+    "IDEVersion":"2024.1400.4.1003",
   },
   "name":"CampfirePortlandOregon",
   "resources":[
@@ -56,6 +56,8 @@
     {"id":{"name":"Controls","path":"scripts/Controls/Controls.yy",},},
     {"id":{"name":"Globals","path":"scripts/Globals/Globals.yy",},},
     {"id":{"name":"mus_Ambient","path":"sounds/mus_Ambient/mus_Ambient.yy",},},
+    {"id":{"name":"mus_Boss","path":"sounds/mus_Boss/mus_Boss.yy",},},
+    {"id":{"name":"mus_BossEnd","path":"sounds/mus_BossEnd/mus_BossEnd.yy",},},
     {"id":{"name":"mus_Title","path":"sounds/mus_Title/mus_Title.yy",},},
     {"id":{"name":"enemy","path":"sprites/enemy/enemy.yy",},},
     {"id":{"name":"Idle","path":"sprites/Idle/Idle.yy",},},
