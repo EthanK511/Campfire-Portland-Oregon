@@ -1,5 +1,5 @@
 global.move_speed = 5;
-global.grav_speed = 1.5;
+global.grav_speed = 1;
 global.on_ground = false;
 
 global.jump_force = 10;
@@ -15,3 +15,8 @@ global.fall_grav_mult = 2.0;
 x_speed = 1; 
 y_speed = 1; 
 walk_speed = 1; 
+
+is_attacking = false;
+attack_frame_timer = 0;
+
+idle_timer = 0;

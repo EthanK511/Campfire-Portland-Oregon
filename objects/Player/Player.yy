@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Idle",
-    "path":"sprites/Idle/Idle.yy",
+    "name":"Splayer2",
+    "path":"sprites/Splayer2/Splayer2.yy",
   },
   "spriteMaskId":null,
   "visible":true,

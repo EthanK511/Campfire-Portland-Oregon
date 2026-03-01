@@ -1,17 +1,3 @@
-// coloring
-
-// var max_dist = point_distance(0, 0, room_width / 2, room_height / 2);
-
-// for (var i = 0; i < instance_number(Stone); ++i) {
-//     var inst = instance_find(Stone, i);
-// 	var dist = point_distance(inst.x, inst.y, x, y);
-// 	var factor = clamp(1 - dist / max_dist, 0, 1);
-	
-// 	inst.image_alpha = factor;
-// }
-
-// movement
-
 var xvel = 0;
 var oy = y;
 
@@ -69,4 +55,51 @@ if (y == oy) {
 
 if (global.on_ground) {
     global.jump_multiply_track = 0;
+}
+
+if (mouse_check_button_pressed(mb_left) && !is_attacking) {
+    is_attacking = true;
+    attack_frame_timer = 0;
+    image_index = 3;
+    image_speed = 0;
+}
+
+if (is_attacking) {
+    attack_frame_timer++;
+    var frame_duration = 8;
+
+    if (attack_frame_timer >= frame_duration) {
+        attack_frame_timer = 0;
+        image_index++;
+
+        if (image_index > 5) {
+            is_attacking = false;
+            image_speed = 0;
+            image_index = 0;
+        }
+    }
+}
+
+if (!is_attacking) {
+    image_speed = 0;
+
+    if (!global.on_ground) {
+        if (image_index != 2 && image_index != 3) {
+            image_index = 2;
+        }
+    } else {
+        if (image_index != 0 && image_index != 1) {
+            image_index = 0;
+        }
+
+        idle_timer++;
+        if (idle_timer >= 15) {
+            idle_timer = 0;
+            if (image_index == 0) {
+                image_index = 1;
+            } else {
+                image_index = 0;
+            }
+        }
+    }
 }
