@@ -80,6 +80,12 @@ if (mouse_check_button_pressed(mb_left) && !is_attacking) {
     attack_frame_timer = 0;
     image_index = 3;
     image_speed = 0;
+
+    var dist = distance_to_object(oNPChostile);
+
+    if (dist <= 2) {
+        oNPChostile.hurt();
+    }
 }
 
 if (is_attacking) {
