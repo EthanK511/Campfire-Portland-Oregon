@@ -3,7 +3,7 @@ global.grav_speed = 1;
 global.on_ground = false;
 
 global.jump_force = 10;
-global.Jump_multiply = 2;
+global.Jump_multiply = 1;
 global.jump_multiply_track = 0;
 
 global.yvel = 0;
