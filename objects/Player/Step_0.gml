@@ -70,3 +70,21 @@ if (y == oy) {
 if (global.on_ground) {
     global.jump_multiply_track = 0;
 }
+
+// health
+if (player_health <= 0) {
+	room_restart();
+}
+
+image_blend = c_white;
+
+// blink
+if (blinking) {
+	var blink_end = blink_start + blink_duration;
+	
+	if (current_time > blink_end) {
+		blinking = false;
+	} else {
+		image_blend = c_red;
+	}
+}

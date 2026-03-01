@@ -15,3 +15,17 @@ global.fall_grav_mult = 2.0;
 x_speed = 1; 
 y_speed = 1; 
 walk_speed = 1; 
+
+player_health = 10;
+
+// blinking
+blinking = false;
+blink_start = current_time;
+blink_duration = 250;
+
+/// @param {Real} amount
+hurt = function(amount) {
+	player_health -= amount;
+	blinking = true;
+	blink_start = current_time;
+};
