@@ -20,3 +20,16 @@ is_attacking = false;
 attack_frame_timer = 0;
 
 idle_timer = 0;
+player_health = 10;
+
+// blinking
+blinking = false;
+blink_start = current_time;
+blink_duration = 250;
+
+/// @param {Real} amount
+hurt = function(amount) {
+	player_health -= amount;
+	blinking = true;
+	blink_start = current_time;
+};
